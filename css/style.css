@@ -8533,9 +8533,10 @@ textarea.form-control {
   width: 100%;
   padding: 10% 7%;
   border-radius: 5px 5px 5px 5px; }
-  @media (min-width: 768px) {
+  @media (min-width: 100%) {
     .block-3 .image {
-      width: 40%;
+      max-width: 100%;
+      max-height: 100%;
       padding: 10% 7%; } }
   .block-3 .image .icon {
     width: 100px;
@@ -8559,9 +8560,9 @@ textarea.form-control {
 .block-3 .text {
   width: 100%;
   padding: 10% 7%; }
-  @media (min-width: 768px) {
+  @media (min-width: 100%) {
     .block-3 .text {
-      width: 60%;
+      width: 100%;
       padding: 10% 7%; } }
 
 .block-3 .text .subheading {
@@ -8580,7 +8581,7 @@ textarea.form-control {
   margin-bottom: 0; }
 
 .block-3 .image {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat; }
   @media (max-width: 767.98px) {
